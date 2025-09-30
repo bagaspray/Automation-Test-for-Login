@@ -69,7 +69,7 @@ describe('Login Scenario', () => {
     cy.visit('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     cy.url().should('include', '/login')
 
-    cy.get('input[name="username"]').type('admin').should('have.value', 'admin')
+    cy.get('input[name="username"]').type('Admin').should('have.value', 'Admin')
     cy.get('input[name="password"]').type('ADMIN123').should('have.value', 'ADMIN123')
 
     cy.get('button[type="submit"]').should('be.visible')
