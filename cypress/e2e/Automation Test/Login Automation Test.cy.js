@@ -13,7 +13,6 @@ describe('Login Scenario', () => {
     // ✅ Expected result
     cy.url().should('include', '/dashboard')
     cy.contains('Time at Work').should('be.visible')
-
   })
 
   it('TC002 - The user logs in using an invalid username and password', () => {
