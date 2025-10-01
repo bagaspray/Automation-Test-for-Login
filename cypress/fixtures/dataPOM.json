@@ -1,0 +1,16 @@
+{
+    "valid_username": "Admin",
+    "valid_password": "admin123",
+
+    "invalid_username": "Adminsalah",
+    "invalid_password": "admin123salah",
+
+    "uppercase_password": "ADMIN123",
+
+    "whitespace": " ",
+
+    "valid_password_with_space": "admin123 ",
+
+    "spesial_username": "@dmin",
+    "spesial_password": "@dmin123"
+}
