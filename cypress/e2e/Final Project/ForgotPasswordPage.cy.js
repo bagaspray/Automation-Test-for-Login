@@ -18,13 +18,13 @@ describe('Forget Password Scenario', () => {
         forgotPasswordPOM.resetPassword_success()
     })
 
-    it('TC003 - The user resets the password using a whitespace username', () => {
+    it('TC002 - The user resets the password using a whitespace username', () => {
         forgotPasswordPOM.submit(dataFinal.whitespace)
         // ✅ Expected result
         forgotPasswordPOM.forgotPassword_required()
     }) 
 
-    it('TC004 - The user cancels the forgot password process', () => {
+    it('TC003 - The user cancels the forgot password process', () => {
         interceptForgotPassword.cancelForgotPassword()
         forgotPasswordPOM.click_cancel()
         interceptForgotPassword.waitForgotPassword()
