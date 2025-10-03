@@ -1,0 +1,24 @@
+{
+    "valid_username": "Admin",
+    "valid_password": "admin123",
+
+    "invalid_username": "Adminsalah",
+    "invalid_password": "admin123salah",
+
+    "uppercase_password": "ADMIN123",
+    "uppercase_username": "ADMIN",
+    "lowercase_username": "admin",
+
+    "whitespace": " ",
+
+    "valid_password_with_space": "admin123 ",
+    "valid_username_with_space": "Admin ",
+
+    "spesial_username": "@dmin",
+    "spesial_password": "@dmin123",
+
+    "employeeName": "Rebecca Harmony",
+    "employeeNameInvalid": "Bagas",
+    "jobtitle": "QA Engineer",
+    "location": "Texas R&D"
+}
