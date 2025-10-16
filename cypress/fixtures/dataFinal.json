@@ -20,5 +20,11 @@
     "employeeName": "Rebecca Harmony",
     "employeeNameInvalid": "Bagas",
     "jobtitle": "QA Engineer",
-    "location": "Texas R&D"
+    "location": "Texas R&D",
+
+    "new_password": "a@Admin123",
+    "invalid_confirm_password": "@Admin12345",
+    "new_password_not7": "admin1",
+    "new_password_letter": "adminonly",
+    "new_password_number": "12345678"
 }
